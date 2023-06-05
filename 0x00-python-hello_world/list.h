@@ -18,7 +18,7 @@ typedef struct listints
 	struct listints *next;
 } listintt;
 
-size_t printlistint(const listintt *h);
+size_t printlistint(const listintt *b);
 listintt *addnodeint(listintt **head, const int a);
 void freelistint(listintt *head);
 int checkcycle(listintt *list);
