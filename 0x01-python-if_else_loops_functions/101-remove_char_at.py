@@ -1,10 +1,6 @@
-har_at(str, n):
-    i = 0
-    newstr = ""
-    while i != len(str):
-        if i == n:
-            pass
-        else:
-            newstr += str[i]
-        i += 1
-    return newstr
+#!/usr/bin/python3
+def remove_char_at(str, n):
+    if (n > len(str) or n < 0):
+        return(str)
+    else:
+        return(str.replace(str[n], ""))
